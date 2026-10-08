@@ -2,7 +2,7 @@ const backendActive = false
 
 const form = document.getElementById("question-form");
 const textarea = document.getElementById("question");
-const answerDiv = document.getElementById("answer");
+const answerDiv = document.getElementById("response");
 
 form.addEventListener("submit", async function (e) {
     e.preventDefault();
