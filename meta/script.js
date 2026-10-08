@@ -4,7 +4,7 @@ const form = document.getElementById("question-form");
 const textarea = document.getElementById("question");
 const answerDiv = document.getElementById("answer");
 
-form.addEventListener("submit", function (e) {
+form.addEventListener("submit", async function (e) {
     e.preventDefault();
     const text = textarea.value.trim();
 
